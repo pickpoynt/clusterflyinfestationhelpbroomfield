@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chino Hills Emergency</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Water Heater Repair</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chino Hills Burst Pipe</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Repair Specialists</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Chino Hills' rapid-response hot water specialists. We provide safe, effective water heater repair and professional unit replacement throughout Chino Hills and the surrounding San Bernardino County area.
+              Chino Hills' rapid-response pipe restoration team. We provide safe, effective leak detection and professional pipe repair throughout Chino Hills and the surrounding San Bernardino County area.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Gas Heater Repair", "Electric Heater Repair", "Tankless Maintenance", "Leak Detection", "Emergency Shut-off"].map((item) => (
+              {["Emergency Pipe Repair", "Leak Detection", "Pipe Replacement", "Slab Leak Repair", "Main Line Service"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -54,7 +54,7 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Chino Hills Emergency Water Heater Repair Pros<br />
+                  Chino Hills Burst Pipe Repair Pros<br />
                   Chino Hills, CA 91709
                 </address>
               </div>
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Chino Hills Emergency Water Heater Repair Pros. All rights reserved. Professional Water Heater Services Chino Hills, CA.
+            © {new Date().getFullYear()} Chino Hills Burst Pipe Repair Pros. All rights reserved. Professional Pipe Services Chino Hills, CA.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-xs mb-4">

@@ -12,14 +12,19 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Emergency Water Heater Repair Chino Hills",
-  subtitle = "Chino Hills' premier hot water specialists. We provide rapid-response diagnostics and professional repair to restore your hot water today — guaranteed.",
+  title = (
+    <>
+      Burst Pipe Repair Service <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
+    </>
+  ),
+  subtitle = "Chino Hills' rapid-response pipe restoration specialists. We provide professional leak detection and emergency pipe repair to protect your home from catastrophic water damage — 24/7.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "8777921410",
-  badge = "CHINO HILLS WATER HEATER PROS",
+  badge = "CHINO HILLS PIPE REPAIR PROS",
   features = [
-    { icon: Search, text: "Diagnostic Review" },
+    { icon: Search, text: "Leak Detection" },
     { icon: ShieldCheck, text: "Safety Certified" },
     { icon: Locate, text: "Chino Hills Local" }
   ]

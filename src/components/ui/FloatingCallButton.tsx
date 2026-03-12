@@ -18,7 +18,7 @@ const FloatingCallButton = () => {
             </a>
             <div className="flex items-center gap-2 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full border border-slate-200 shadow-sm animate-pulse">
                 <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
-                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Water Heater Team On Standby - Chino Hills, CA - (877) 792-1410</span>
+                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter">Burst Pipe Team On Standby - Chino Hills, CA - (877) 792-1410</span>
             </div>
         </div>
     );

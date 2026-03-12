@@ -1,8 +1,8 @@
 const links = [
-  { text: "Water Heater Repair Beaverton", url: "https://waterheaterrepairbeaverton.vercel.app/" },
-  { text: "Plumber Montello WI", url: "https://plumbermontellowi.vercel.app/" },
-  { text: "Centipedes Extermination Mililani", url: "https://centipedesexterminationmililani.vercel.app/" },
-  { text: "Raccoon Control Southwest Ranches", url: "https://raccooncontrolsouthwestranches.vercel.app/" },
+  { text: "Leaking Pipe Repair in Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
+  { text: "Slab Leak Repair Swarthmore", url: "https://slableakrepairswarthmore.vercel.app/" },
+  { text: "Burst Pipe Repair Swarthmore", url: "https://burstpiperepairswarthmore.vercel.app/" },
+  { text: "Drain Cleaning Evansville Indiana", url: "https://draincleaningevansvilleindiana.vercel.app/" },
 ];
 
 const RandomLinks = () => {

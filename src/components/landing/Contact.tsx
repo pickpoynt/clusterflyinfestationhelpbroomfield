@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            CHINO HILLS EMERGENCY WATER HEATER REPAIR PROS
+            CHINO HILLS BURST PIPE REPAIR PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Protect <span className="text-amber-600">Water Heater Chino Hills</span>
+            Protect <span className="text-amber-600">Against Burst Pipes Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Chino Hills home from water heater failure. Our specialized team provides same-day diagnostic review, full unit repair, and safety certified installations across Chino Hills, CA.
+            Protect your Chino Hills property from catastrophic water damage. Our localized team provides same-day diagnostic review, emergency pipe restoration, and full structural protection across Chino Hills, CA.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">HOT WATER HOTLINE</p>
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">EMERGENCY PIPE HOTLINE</p>
                 <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
                   (877) 792-1410
                 </a>
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">LIFETIME WARRANTY</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Pennsylvania Licensed Foundation Specialists</p>
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">LOCAL CERTIFICATION</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Licensed San Bernardino County Pipe Specialists</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Chino Hills Emergency Water Heater Repair Pros</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Chino Hills Burst Pipe Repair Pros</p>
                 <p className="text-slate-500 font-medium text-sm">Chino Hills, CA 91709</p>
                 <p className="text-slate-500 font-medium text-sm">(877) 792-1410</p>
               </div>
@@ -82,8 +82,8 @@ const Contact = () => {
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Name</label>
-                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Property Owner" />
+                <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Property Owner</label>
+                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Name" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Phone</label>
@@ -93,16 +93,16 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium">
-                <option>Gas Heater Repair</option>
-                <option>Electric Element Replacement</option>
-                <option>Tankless System Diagnostic</option>
-                <option>Emergency Leak Control</option>
-                <option>Safety certified Installation</option>
+                <option>Emergency Pipe Burst</option>
+                <option>Active Leak Detection</option>
+                <option>Slab Leak Repair</option>
+                <option>Main Line Restoration</option>
+                <option>Full System Audit</option>
               </select>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Project Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe your water or foundation concerns..."></textarea>
+              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Emergency Details</label>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe your pipe failure or moisture location..."></textarea>
             </div>
             <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-amber-900/20 uppercase tracking-widest transition-all">
               Request Professional Review

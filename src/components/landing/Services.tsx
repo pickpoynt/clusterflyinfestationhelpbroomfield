@@ -2,23 +2,23 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Gas Water Heaters",
-    description: "Expert troubleshooting and repair for gas-fired units, including thermocouple replacement and burner cleaning in Chino Hills.",
+    title: "Emergency Pipe Repair",
+    description: "Rapid response for active pipe bursts. We provide immediate clamping and permanent copper or PEX restoration in Chino Hills.",
     icon: Target
   },
   {
-    title: "Electric Units",
-    description: "Rapid heating element replacement and thermostat calibration to restore hot water to your Chino Hills home immediately.",
-    icon: Hammer
-  },
-  {
-    title: "Tankless Systems",
-    description: "Advanced diagnostic and descaling services for high-efficiency tankless water heaters. Professional sensor and board repair.",
+    title: "Leak Detection",
+    description: "Advanced acoustic and thermal imaging to locate hidden pipe failures behind walls or under slabs without unnecessary destruction.",
     icon: Search
   },
   {
-    title: "Leak Mitigation",
-    description: "Prevention of catastrophic failure through valve replacement and tank integrity testing. Emergency shut-off services available.",
+    title: "Pipe Replacement",
+    description: "Full-scale replacement of aging, corroded, or fragile piping systems to prevent future bursts and ensure long-term reliability.",
+    icon: Hammer
+  },
+  {
+    title: "Main Line Service",
+    description: "Specialized repair for main water lines. We handle high-pressure failures and residential service line restoration.",
     icon: ShieldCheck
   }
 ];
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Water Heater Services Chino Hills</span>
+            Comprehensive <span className="text-amber-600">Burst Pipe Services Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Chino Hills homeowners rely on our specialized team for high-precision diagnostic and total unit restoration. We target the source of your hot water failure.
+            Chino Hills homeowners trust our specialized team for high-precision leak localization and total pipe system restoration. We target the source of your water failure.
           </p>
         </div>
 
