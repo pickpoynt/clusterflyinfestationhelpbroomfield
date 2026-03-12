@@ -14,18 +14,18 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Burst Pipe Repair Service <br />
+      Clogged Drain Cleaning Service <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
     </>
   ),
-  subtitle = "Chino Hills' rapid-response pipe restoration specialists. We provide professional leak detection and emergency pipe repair to protect your home from catastrophic water damage — 24/7.",
+  subtitle = "Chino Hills' premier drain clearing specialists. We provide rapid-response blockage removal and professional hydro jetting to restore your plumbing system quickly — 24/7.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "8777921410",
-  badge = "CHINO HILLS PIPE REPAIR PROS",
+  badge = "CHINO HILLS DRAIN CLEANING PROS",
   features = [
-    { icon: Search, text: "Leak Detection" },
-    { icon: ShieldCheck, text: "Safety Certified" },
+    { icon: Search, text: "Drain Diagnostic" },
+    { icon: ShieldCheck, text: "Blockage Clearance" },
     { icon: Locate, text: "Chino Hills Local" }
   ]
 }: HeroProps) => {

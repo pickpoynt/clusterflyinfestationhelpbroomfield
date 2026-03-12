@@ -2,23 +2,23 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Emergency Pipe Repair",
-    description: "Rapid response for active pipe bursts. We provide immediate clamping and permanent copper or PEX restoration in Chino Hills.",
+    title: "Emergency Unclogging",
+    description: "Rapid response for backed-up drains. We provide immediate mechanical snaking and total blockage removal in Chino Hills homes.",
     icon: Target
   },
   {
-    title: "Leak Detection",
-    description: "Advanced acoustic and thermal imaging to locate hidden pipe failures behind walls or under slabs without unnecessary destruction.",
+    title: "Hydro Jetting",
+    description: "High-pressure water cleaning to scrub pipe walls and remove years of grease, scale, and debris for long-lasting flow.",
     icon: Search
   },
   {
-    title: "Pipe Replacement",
-    description: "Full-scale replacement of aging, corroded, or fragile piping systems to prevent future bursts and ensure long-term reliability.",
+    title: "Main Sewer Cleaning",
+    description: "Specialized equipment to clear main sewer line obstructions, including tree roots and major sludge buildup.",
     icon: Hammer
   },
   {
-    title: "Main Line Service",
-    description: "Specialized repair for main water lines. We handle high-pressure failures and residential service line restoration.",
+    title: "Camera Inspection",
+    description: "High-definition video pipe inspections to pinpoint the exact location and nature of your drain problems without digging.",
     icon: ShieldCheck
   }
 ];
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Burst Pipe Services Chino Hills</span>
+            Professional <span className="text-amber-600">Clogged Drain Cleaning Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Chino Hills homeowners trust our specialized team for high-precision leak localization and total pipe system restoration. We target the source of your water failure.
+            Chino Hills homeowners trust our specialized team for high-precision blockage localization and total drain diagnostics. We clear the toughest clogs.
           </p>
         </div>
 
