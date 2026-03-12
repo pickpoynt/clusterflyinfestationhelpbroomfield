@@ -8,7 +8,7 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            FRUITLAND MD SQUIRREL CONTROL PROS
+            FRAZER PA BASEMENT WATERPROOFING PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
             Protect <span className="text-amber-600">Basement Waterproofing Frazer</span>
