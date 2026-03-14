@@ -4,23 +4,23 @@ const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Immediate Source Mapping",
-      description: "Infestations start deep. Our Broomfield teams specialize in tracing moth larvae to their origin point, ensuring no shipment or shelf is left un-inspected."
+      title: "Rapid Attic Void Mapping",
+      description: "Cluster flies aggregate in structural voids. Our Broomfield teams specialize in mapping these thermal collection points for surgical treatment."
     },
     {
       icon: Shield,
-      title: "Non-Toxic Sanitation",
-      description: "We use laboratory-grade sanitation that is lethal to moths but 100% safe for food storage areas and kitchen surfaces when specialized treatments dry."
+      title: "Seal & Shield Protection",
+      description: "We don't just spray. We offer mechanical exclusion using UV-resistant sealants to block window frames and soffits from future invasions."
     },
     {
       icon: Target,
-      title: "Pheromone Cycle Disruption",
-      description: "Our advanced male-attraction systems disrupt the mating cycle, preventing adult moths from laying thousands of eggs in your stored grains and dry goods."
+      title: "Biological Life-Cycle Disruptors",
+      description: "Our treatments target the biology of the cluster fly, ensuring that dormant clusters in your walls don't migrate into your living space."
     },
     {
       icon: Award,
-      title: "Broomfield Storage Experts",
-      description: "Deep understanding of high-altitude storage challenges in Colorado and the specific Indian Meal Moth strains common in the Front Range ecosystem."
+      title: "Broomfield Front Range Experts",
+      description: "Deep understanding of how Colorado's temperature swings drive fly behavior in the 80020 area and surrounding ZIP codes."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Broomfield Moth Team?</span>
+              Why Trust Our <span className="text-amber-600">Broomfield Fly Team?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protecting your pantry from destructive moth colonies is our specialized focus. In Broomfield, CO, pantry moths are a common nuisance that can quickly ruin hundreds of dollars in groceries. Our team combines structural sanitation with pheromone targeting to reclaim your kitchen and provide total peace of mind.
+              Cluster flies are not your typical house fly. In Broomfield, CO, they are a seasonal plague that can see thousands of insects clustering in your attic and wall voids. Our team combines mechanical exclusion with high-performance residuals to reclaim your home and provide total peace of mind.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,10 +55,10 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/2.jpeg" alt="Moth Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/3.jpeg" alt="Removal Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Pantry Shield" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/1.jpeg" alt="Safety Protocol" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/2.jpeg" alt="Fly Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/3.jpeg" alt="Exclusion Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Wall Shield" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/1.jpeg" alt="Rapid Response" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-40 h-40 bg-amber-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">

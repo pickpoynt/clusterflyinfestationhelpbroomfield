@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Pheromone Trapping",
-    description: "Advanced male-attraction systems to disrupt the breeding cycle. We use laboratory-grade synthetics to monitor and eliminate adult moth populations.",
+    title: "Structural Void Flushing",
+    description: "Deep-injection of wall voids and attic spaces to eliminate clusters where they winter. We utilize mechanical micro-mists for full coverage.",
     image: "/2.jpeg",
-    points: ["Mating Disruption", "Population Tracking", "Non-Toxic"]
+    points: ["Wall Void Targeting", "Attic Space Flush", "Residual Barriers"]
   },
   {
-    title: "Structural Sanitation",
-    description: "Deep-cleaning of cracks and crevices where larvae hide. We utilize ultrasonic vacuuming and botanical growth regulators for complete purity.",
+    title: "Mechanical Exclusion",
+    description: "Seal points of entry including window frames, soffit vents, and structural gaps. We use high-grade sealants to prevent future fall invasions.",
     image: "/3.jpeg",
-    points: ["Crevice Flushing", "Larvae Removal", "Organic Safe"]
+    points: ["Window Sealing", "Soffit Screening", "Entry Point Fixes"]
   },
   {
-    title: "Infestation Mapping",
-    description: "We trace the source of your moth problem, identifying contaminated shipments or hidden breeding grounds in your pantries and cabinets.",
+    title: "Residual Perimeter Shield",
+    description: "Application of weather-resistant micro-encapsulated residuals to south-facing walls where cluster flies aggregate before entering.",
     image: "/1.jpeg",
-    points: ["Source Detection", "Cross-Contamination Analysis", "Expert Report"]
+    points: ["South-Wall Armor", "UV Resistant", "Broomfield Secure"]
   },
   {
-    title: "Quarterly Pantry Guard",
-    description: "Proactive prevention against future outbreaks. We set up physical and biological barriers to ensure your storage stays moth-free year-round.",
+    title: "Emergency Knockdown",
+    description: "Rapid reduction of active indoor fly clusters using safe, non-invasive aerosols that leave your home clean and fly-free instantly.",
     image: "/4.jpeg",
-    points: ["Barrier Application", "Preventive Shield", "Broomfield Secure"]
+    points: ["Instant Results", "Interior Safe", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Pantry Moth Control In Broomfield</span>
+            Specialized <span className="text-amber-600">Fly Control In Broomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Protect your food supply. In the Colorado Front Range, pantry moths can quickly overwhelm kitchens and commercial storage. Our specialists provide non-invasive, effective elimination.
+            Don't let cluster flies take over your home this winter. In the Front Range, fall invasions can lead to thousands of flies in your attic. Our Broomfield teams provide total abatement.
           </p>
         </div>
 

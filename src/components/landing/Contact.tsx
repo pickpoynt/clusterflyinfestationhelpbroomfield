@@ -14,10 +14,10 @@ const Contact = () => {
               Contact Our Team
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid <span className="text-amber-600">Broomfield Moth Response</span>
+              Rapid <span className="text-amber-600">Broomfield Fly Response</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Stop the destruction. Our Broomfield pantry moth specialists are standing by 24/7 for structural sanitation and pheromone cycle disruption.
+              Reclaim your home. Our Broomfield cluster fly specialists are standing by 24/7 for structural void flushing and mechanical exclusion.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Moth Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Fly Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <div>
                   <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield Office</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Broomfield CO Pantry Moth Experts<br />
+                    Broomfield CO Cluster Fly Experts<br />
                     Broomfield, CO 80020
                   </address>
                 </div>
@@ -86,24 +86,24 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Complete Pantry Eradication</option>
-                    <option>Structural Flush & IGR</option>
-                    <option>Pheromone Trap Setup</option>
-                    <option>Commercial Storage Shield</option>
+                    <option>Complete Void Flush</option>
+                    <option>Mechanical Exclusion/Sealing</option>
+                    <option>Attic Fogging Protocol</option>
+                    <option>Seasonal Perimeter Shield</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Infestation Details</label>
-                  <Textarea placeholder="Are you seeing moths, larvae, or webbing? Which cabinet is the focus?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <Textarea placeholder="Are flies currently in your windows? Which direction does your home face?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Exterminate Pantry Moths
+                  Exterminate Cluster Flies
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local CO moth specialist at the number provided.
+                  By clicking, you agree to being contacted by a local CO fly specialist at the number provided.
                 </p>
               </form>
             </div>

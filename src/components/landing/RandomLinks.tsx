@@ -6,6 +6,7 @@ const links = [
   { text: "Mosquito Control Eagle Point OR", url: "https://mosquitocontrolserviceeaglepointor.vercel.app/" },
   { text: "Spider Exterminator Holly Springs NC", url: "https://spiderexterminatorhollyspringsnc.vercel.app/" },
   { text: "Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
+  { text: "Pantry Moth Exterminator Broomfield", url: "https://pantrymothexterminatorbroomfield.vercel.app/" },
 ];
 
 const RandomLinks = () => {
