@@ -19,9 +19,16 @@ const FAQItem = ({ item, index }: { item: { q: string; a: string }, index: numbe
       </h3>
     </div>
     <div className="pl-14">
-      <p className="text-slate-600 leading-relaxed font-normal text-sm whitespace-pre-line p-6 bg-slate-50/50 rounded-2xl italic border-l-4 border-amber-500">
+      <p className="text-slate-600 leading-relaxed font-normal text-sm whitespace-pre-line p-6 bg-slate-50/50 rounded-2xl italic border-l-4 border-amber-500 mb-4">
         {item.a}
       </p>
+      <a 
+        href="tel:3238801224" 
+        className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all hover:scale-105 shadow-lg shadow-amber-900/20"
+      >
+        <Phone className="w-4 h-4" />
+        CALL A BROOMFIELD FLY EXPERT NOW
+      </a>
     </div>
   </div>
 );
